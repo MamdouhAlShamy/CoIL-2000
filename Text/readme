@@ -4,10 +4,26 @@
 · Determine what data you can access
 · Obtain the data
 · Clean the data
-	<<
+	- Missing values
+		ALL EXIST
+	- Values outside of expected ranges
+		ALL within the range expect (AWAPART) said to be 1-12	but it is 0-5 and it is concentrated around 0 as avg = 0.048 +/- 0.409
+	- Values that seem to be in the wrong units
+		ALL data is numeric but in categories
+	- Mislabled variables/columns
+		NONE
+	- Variables that are the wrong class
+
 · Exploratory data analysis
+
 · Statistical prediction/modeling
+	- SVM
+	- Decision Tree
+	
 · Interpret results
+
 · Challenge results
+
 · Synthesize/write up results
+
 · Create reproducible code
