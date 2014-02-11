@@ -1,0 +1,22 @@
+data: original
+classification: svm
+AWAPART	0.10349942885966701
+PerformanceVector:
+svm_objective_function: -0.613
+no_support_vectors: 1041.000
+
+data: CARAVAN binomial
+classification: svm
+AWAPART	0.41886209354468945
+PerformanceVector:
+svm_objective_function: -0.319
+no_support_vectors: 123.000
+
+data: CARAVAN binomial
+classification: decision tree
+AWAPART > 1: true {false=0, true=82}
+AWAPART ≤ 1: false {false=5740, true=0}
+
+
+I want to understand the meaning of the perf of SVM
+how to test the model with test data
