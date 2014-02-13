@@ -21,14 +21,41 @@ AWAPART ≤ 1: false {false=5740, true=0}
 after learning the model and using it to validate (eval) test data:
 
 process name	:	data_original_label_nom_svm_valid_test_data
-classification	:	SVM
+classification	:	SVM, Decision Tree, Linear Regression, NN
 actual			:	false (3762), true (238)
 prediction		:	false (3947), true (53)
 Error			:	185
-correct per(%)	:	95.375
+correct per(%)	:	22.26 from true
+
+process name	:	data_original_label_nom_decision_tree_valid_test_data
+classification	:	Decision Tree
+actual			:	false (3762), true (238)
+prediction		:	false (3947), true (53)
+Error			:	185
+correct per(%)	:	22.26 from true
+
+process name	:	data_original_label_nom_KNN_valid_test_data
+classification	:	Perceptron
+rounds			:	3
+actual			:	false (3762), true (238)
+prediction		:	false (3953), true (47)
+Error			:	217
+correct per(%)	:	19.74 from true
+
+process name	:	data_original_label_nom_KNN_valid_test_data
+classification	:	KNN
+K				:	1
+actual			:	false (3762), true (238)
+prediction		:	false (3979), true (21)
+Error			:	217
+correct per(%)	:	8.8 from true
+
+KNN - weight doesnt matter -
+K	:	1	2	3	4	5	10-500
+err	:	217	235	234	236	235	238	
 
 I want to understand the meaning of the perf of SVM
 I knew how to test the accuracy of model selected on the training data
 how to test the model with test data << DONE
 
-more complex mode that make better results
+more complex mode that makes better results
