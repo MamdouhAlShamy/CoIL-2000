@@ -27,12 +27,6 @@ prediction		:	false (3947), true (53)
 Error			:	185
 correct per(%)	:	22.26 from true
 
-process name	:	data_original_label_nom_decision_tree_valid_test_data
-classification	:	Decision Tree
-actual			:	false (3762), true (238)
-prediction		:	false (3947), true (53)
-Error			:	185
-correct per(%)	:	22.26 from true
 
 process name	:	data_original_label_nom_KNN_valid_test_data
 classification	:	Perceptron
@@ -41,6 +35,7 @@ actual			:	false (3762), true (238)
 prediction		:	false (3953), true (47), (50)
 Error			:	217
 correct per(%)	:	19.74, 21 from true
+
 
 process name	:	data_original_label_nom_KNN_valid_test_data
 classification	:	KNN
