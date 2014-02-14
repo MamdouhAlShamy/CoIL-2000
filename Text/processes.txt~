@@ -50,7 +50,7 @@ K	:	1	2	3	4	5	10-500
 err	:	217	235	234	236	235	238	
 
 
-process name	:	pca_SVM_decision_tree
+process name	:	filter_feature_NB
 preprocessing	:	filtering all features except (MKOOPKLA, PWAPART, PBRAND, PPLEZIER, PBYSTAND, AWAPART, APERSAUT, ABRAND, APLEZIER, ABYSTAND)
 classification	:	Naive Bayes
 actual			:	false (3762), true (238)

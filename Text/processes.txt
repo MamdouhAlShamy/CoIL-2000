@@ -59,6 +59,18 @@ Error			:	134
 correct per(%)	:	43.69 from true
 
 
+process name	:	filter_feature_NB_2
+preprocessing	:	filtering all features except (MKOOPKLA, PWAPART, PWABEDR, PWALAND, PBRAND, PPLEZIER, AWAPART, AWABEDR, AWALAND, APERSAUT, ABRAND, APLEZIER, ABYSTAND)
+classification	:	Naive Bayes
+actual			:	false (3762), true (238)
+prediction		:	false (3876), true (124)
+Error			:	114
+correct per(%)	:	47.899159664 from true
+
+
+
+
+
 
 UNDERREVISING
 process name	:	pca_SVM_decision_tree
