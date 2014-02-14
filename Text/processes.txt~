@@ -27,12 +27,6 @@ prediction		:	false (3947), true (53)
 Error			:	185
 correct per(%)	:	22.26 from true
 
-process name	:	data_original_label_nom_decision_tree_valid_test_data
-classification	:	Decision Tree
-actual			:	false (3762), true (238)
-prediction		:	false (3947), true (53)
-Error			:	185
-correct per(%)	:	22.26 from true
 
 process name	:	data_original_label_nom_KNN_valid_test_data
 classification	:	Perceptron
@@ -41,6 +35,7 @@ actual			:	false (3762), true (238)
 prediction		:	false (3953), true (47), (50)
 Error			:	217
 correct per(%)	:	19.74, 21 from true
+
 
 process name	:	data_original_label_nom_KNN_valid_test_data
 classification	:	KNN
@@ -54,6 +49,17 @@ KNN - weight doesnt matter -
 K	:	1	2	3	4	5	10-500
 err	:	217	235	234	236	235	238	
 
+
+process name	:	pca_SVM_decision_tree
+preprocessing	:	PCA
+classification	:	SVM, decision tree
+actual			:	false (3762), true (238)
+prediction		:	false (4000), true (0)
+Error			:	238
+correct per(%)	:	0 from true
+
+
+<< thoughts
 I want to understand the meaning of the perf of SVM
 I knew how to test the accuracy of model selected on the training data
 how to test the model with test data << DONE

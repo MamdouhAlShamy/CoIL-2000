@@ -7,13 +7,12 @@ with open('tictgts2000.txt') as tgts:
 #print target_array
 
 #read ticeval2000.txt
-with open('ticeval-tgts2000.txt', 'w') as f:
+with open('ticeval-tgts2000.txt', 'w') as pca:
 	i = 0
-	with open('ticeval2000.txt') as eval:
-		for l in eval:
-			x = l + "\t" + target_array[i]
-			f.write(x)
-			i += 1
+	for l in pca:
+		x = l.rstrip() + ":" + target_array[i]
+		f.write(x)
+		i += 1
 	
 
 		

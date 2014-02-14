@@ -15,6 +15,5 @@ with open('ticeval-tgts2000.txt', 'w') as f:
 			f.write(x)
 			i += 1
 	
-
 		
 #create ticeval-tgts2000.txt
