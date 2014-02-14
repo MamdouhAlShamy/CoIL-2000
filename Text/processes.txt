@@ -49,6 +49,17 @@ KNN - weight doesnt matter -
 K	:	1	2	3	4	5	10-500
 err	:	217	235	234	236	235	238	
 
+
+process name	:	filter_feature_NB
+preprocessing	:	filtering all features except (MKOOPKLA, PWAPART, PBRAND, PPLEZIER, PBYSTAND, AWAPART, APERSAUT, ABRAND, APLEZIER, ABYSTAND)
+classification	:	Naive Bayes
+actual			:	false (3762), true (238)
+prediction		:	false (3896), true (104)
+Error			:	134
+correct per(%)	:	43.69 from true
+
+
+
 UNDERREVISING
 process name	:	pca_SVM_decision_tree
 preprocessing	:	PCA
@@ -57,6 +68,8 @@ actual			:	false (3762), true (238)
 prediction		:	false (4000), true (0)
 Error			:	238
 correct per(%)	:	0 from true
+
+
 
 
 << thoughts

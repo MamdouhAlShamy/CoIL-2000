@@ -51,12 +51,25 @@ err	:	217	235	234	236	235	238
 
 
 process name	:	pca_SVM_decision_tree
+preprocessing	:	filtering all features except (MKOOPKLA, PWAPART, PBRAND, PPLEZIER, PBYSTAND, AWAPART, APERSAUT, ABRAND, APLEZIER, ABYSTAND)
+classification	:	Naive Bayes
+actual			:	false (3762), true (238)
+prediction		:	false (3896), true (104)
+Error			:	134
+correct per(%)	:	43.69 from true
+
+
+
+UNDERREVISING
+process name	:	pca_SVM_decision_tree
 preprocessing	:	PCA
 classification	:	SVM, decision tree
 actual			:	false (3762), true (238)
 prediction		:	false (4000), true (0)
 Error			:	238
 correct per(%)	:	0 from true
+
+
 
 
 << thoughts
